@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require_relative "../lib/elements"
+argv = ARGV 
+if argv == []
+  Elements::Cmd.show()
+else
+  Elements::Cmd.search(argv)
+end
