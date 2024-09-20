@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require_relative "../lib/elements"
+require_relative "../lib/theelements"
 argv = ARGV 
 if argv == []
   Elements::Cmd.show()
